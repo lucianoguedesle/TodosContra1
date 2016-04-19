@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Gagalin-Regular';
+    src:  url('../fonts/Gagalin-Regular.ttf.woff') format('woff'),
+    url('../fonts/Gagalin-Regular.ttf.svg#Gagalin-Regular') format('svg'),
+    url('../fonts/Gagalin-Regular.ttf.eot'),
+    url('../fonts/Gagalin-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$brand-primary:                          #B71C1C;
+$brand-success:                          #333333;//#18BC9C;
+$navbar-default-link-color:              #FFFFFF;
+$navbar-default-link-hover-color:        rgba(255, 255, 255, .8);
+$navbar-default-link-active-color:       #FFFFFF;
+$navbar-default-color:                   #FFFFFF;
+$navbar-default-bg:                      $brand-primary;
+
+
+
+@import "bootstrap/bootstrap", "font-awesome/font-awesome", "layout", "customs";

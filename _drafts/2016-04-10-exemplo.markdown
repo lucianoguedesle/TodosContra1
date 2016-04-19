@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Titulo da Noticia"
+date:   2016-02-06 15:08:10 -0500
+img: img/noticias/nome-da-imagem.png # a imagem deve ter 900x650px
+modalID: modalNoticia #O id da noticia, Ex.: modalCombate2016
+category: Nome da Categoria
+---
+
+Seu texto aqui
